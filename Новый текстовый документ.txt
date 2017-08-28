@@ -1,0 +1,37 @@
+<p align="justify"></p> - выравнивание текста по центру
+<b></b> - жирное начертание текста
+<i></i> - курсив
+<u></u> - подчеркивание
+<s></s> - зачеркнутый
+<strong></strong> - логическая разметка, но по факту жирное начертание
+<em></em> - курсив
+<br> - перевод текста на новую строку
+<pre></pre> - исходное форматирование
+<h1></h1> - заголовки
+<sub></sub> - нижний индекс
+<sup></sup> - верхний индекс
+<span></span> - строчный элемент
+<ul type="circle"> - маркированный список (circle - пустые кружки, square - квадраты)
+	<li></li> - элемент списка
+</ul> 
+<ol type="A" start=""> - нумерованный список (A,a - латиница, I,i - римские числа, start - с какого номера будет начинаться список)
+	<li></li>
+</ol>
+<dl> - список определений
+	<dt></dt> - название термина
+	<dd></dd> - определение термина
+</dl>
+<table width="100%" height="" border="" cellspacing="10" cellpadding="10" bgcolor="#eaeaea"> - таблица (border - обрамление таблицы, cellspacing - отступ от краев ячеек, cellpadding - отступ внутри ячейки, bgcolor - цвет фона)
+	<tr> - ячейка таблицы
+		<th valign="top" colspan=""></th> - ячейки заголовки (valign - выравнивание текста ячейки(top, middle, bottom), colspan - объединение ячеек)
+	</tr>
+	<tr>
+		<td rowspan=""></td> - значение ячейки заголовка (rowspan - объединение по вертикали)
+	</tr>
+</table>
+<img src=".jpg" alt="Альтернативный текст" srcset=""> - добавление изображение (alt - изображение не загрузилось)
+<a href="#top" rel="author" download></a> - переброс на верх страницы по ссылке (download - скачивает изображение по ссылке)
+<iframe src=".html" frameborder="" scrolling="auto" name="имя" sandbox="allow-forms" seamless></iframe> - забирает инфу с другой страницы (frameborder - убирает рамку обрамления target="имя""_top" - загружает содержимое при переходе по ссылке, но не переходит по ней, sandbox - контроллер безопасности, seamless - отображается как часть документа)
+<form action="" method="" novalidate autocomplete="on"> - (post, get - , novalidate - переход без проверки формы, autocomplete - сохранение данных после обновления страницы)
+</form>
+<input type="" maxlenght="5" required readonly spellcheck="true"> - search(поиск), tel(телефон), file, range - поле-диапозон... required - обязательное поле, readonly - только для чтения, spellcheck - проверка орфографии, checked - автоматическая отметка, step - изменение ползунка на заданное кол-во тактов, 
